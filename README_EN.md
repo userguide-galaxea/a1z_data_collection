@@ -4,6 +4,23 @@ English | [简体中文](README.md)
 
 A teleoperation data collection tool for an A1Z-T Leader and an A1Z Follower. One command starts Leader readings, Follower control, and data recording. It supports single-arm and dual-arm setups. Joint data and USB camera frames are collected at separately configured target rates and saved as HDF5.
 
+## Table of Contents
+
+- [Hardware versions and branches](#hardware-versions-and-branches)
+- [Installation](#installation)
+  - [1. Clone the repository](#1-clone-the-repository)
+  - [2. Install dependencies](#2-install-dependencies)
+  - [3. Configure the CAN bus](#3-configure-the-can-bus)
+- [Project layout](#project-layout)
+- [Configuration](#configuration)
+- [Camera calibration](#camera-calibration)
+- [Record data](#record-data)
+  - [Start](#start)
+  - [Keyboard controls](#keyboard-controls)
+  - [Collection workflow](#collection-workflow)
+- [Data format](#data-format)
+- [Add another input device](#add-another-input-device)
+
 ## Hardware versions and branches
 
 | Repository branch | Supported A1Z-T hardware | Teleoperation software |
